@@ -1,0 +1,1 @@
+SELECT * FROM Employee WHERE Employee.title IS "Sales Support Agent";
