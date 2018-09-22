@@ -1,0 +1,1 @@
+SELECT COUNT(InvoiceId) AS [Number of invoices] FROM InvoiceLine WHERE InvoiceId IS 37

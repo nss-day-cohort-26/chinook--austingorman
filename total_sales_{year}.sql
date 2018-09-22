@@ -1,0 +1,1 @@
+SELECT SUM(InvoiceDate) AS [2009] FROM Invoice WHERE ((Invoice.InvoiceDate LIKE "2009%") OR (Invoice.InvoiceDate LIKE "2011%"))

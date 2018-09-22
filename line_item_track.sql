@@ -1,0 +1,1 @@
+SELECT COUNT(InvoiceLine.InvoiceId) FROM InvoiceLine GROUP BY InvoiceId
