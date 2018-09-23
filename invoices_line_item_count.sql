@@ -1,0 +1,1 @@
+SELECT InvoiceLine.InvoiceId AS [Invoice Id], COUNT(InvoiceLine.InvoiceLineId) AS [Number of Invoice Line Items] FROM InvoiceLine GROUP BY InvoiceId
